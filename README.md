@@ -73,6 +73,37 @@ Launch the Remote Desktop Protocol (RDP) file and open it.(In Win go to start me
 Enter the credentials for your Azure account when prompted and click "OK."
 You will now be connected to your Azure Virtual Machine.
   
-  
-  
 Step 3 : Installing the prerequisites
+
+From the Installation Files, download and install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi)
+
+From the Installation Files, download and install the Rewrite Module (rewrite_amd64_en-US.msi)
+
+Create the directory C:\PHP
+
+From the Installation Files, download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) and unzip the contents into C:\PHP
+  (If you get a prompt verify to keep file, choose keep file.)
+  
+  
+  Download and install VC_redist.x86.exe.
+
+Download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
+Typical Setup ->
+Launch Configuration Wizard (after install) ->
+Standard Configuration ->
+Password1
+
+  
+ 
+  
+  
+  Step 4 : Open IIS in windows search bar
+ <p>
+  <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+</p>
+<br />
+ 
+  
+
