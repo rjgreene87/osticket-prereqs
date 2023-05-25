@@ -97,7 +97,7 @@ Password1
  
   
   
-  Step 4 : Open IIS in windows search bar
+  Step 4 : Open IIS in windows search bar (right click run as admin)
  <p>
   <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -105,5 +105,19 @@ Password1
 </p>
 <br />
  
-  
+Register PHP from within IIS
+
+Reload IIS (Open IIS, Stop and Start the server)
+
+Step 5 : Install osTicket v1.15.8
+<p>
+  <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+</p>
+<br />
+Download osTicket from the Installation Files Folder
+Extract and copy “upload” folder to c:\inetpub\wwwroot
+Within c:\inetpub\wwwroot, Rename “upload” to “osTicket”
+
 
