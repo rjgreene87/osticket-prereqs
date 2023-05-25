@@ -31,20 +31,12 @@ In this tutorial I will explain the prerequisites and installation of the open-s
 - VC_redist.x86.exe
 
 <h2>Installation Steps</h2>
-
+Step 1: Create an Azure Virtual Machine
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-
+Click on "Create a resource" in the upper left corner and search for "Virtual Machine.
 </p>
 <br />
 
@@ -55,3 +47,32 @@ In this tutorial I will explain the prerequisites and installation of the open-s
 
 </p>
 <br />
+Click on "Virtual Machine" from the search results and then click "Create" on the next screen.
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Follow the prompts to configure your virtual machine, including the subscription, resource group, virtual machine name, region, size, and other settings.
+Choose "Windows 10" as the base image for your virtual machine.
+Complete the wizard and wait for the virtual machine to be created.
+</p>
+<br />
+<p>
+  <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+
+
+Step 2: Connect to the Azure Virtual Machine
+
+Once the virtual machine is created, click on "Virtual machines" in the Azure portal.
+
+Launch the Remote Desktop Protocol (RDP) file and open it.(In Win go to start menu and type in remote desktop in search bar.)
+
+Enter the credentials for your Azure account when prompted and click "OK."
+You will now be connected to your Azure Virtual Machine.
+  
+  
+  
+Step 3 : Installing the prerequisites
