@@ -33,7 +33,7 @@ In this tutorial I will explain the prerequisites and installation of the open-s
 <h2>Installation Steps</h2>
 Step 1: Create an Azure Virtual Machine
 <p>
-  <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <img src="https://i.imgur.com/LcftVkW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Click on "Create a resource" in the upper left corner and search for "Virtual Machine.
@@ -59,7 +59,7 @@ Once the virtual machine is created, click on "Virtual machines" in the Azure po
 
 Launch the Remote Desktop Protocol (RDP) file and open it.(In Win go to start menu and type in remote desktop in search bar.)
 <p>
-  <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <img src="https://i.imgur.com/dT1RFUq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Enter the credentials for your Azure account when prompted and click "OK."
@@ -103,7 +103,7 @@ Reload IIS (Open IIS, Stop and Start the server)
 
 Step 5 : Install osTicket v1.15.8
 <p>
-  <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <img src="https://i.imgur.com/7l9NyHt.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 </p>
@@ -119,7 +119,10 @@ Reload IIS (Open IIS, Stop and Start the server)
 
 Go to sites -> Default -> osTicket
 On the right, click “Browse *:80”
-
+<p>
+  <img src="https://i.imgur.com/6ilSDxV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
 Some extensions are not enabled by default
 Go back to IIS, sites -> Default -> osTicket
 Double-click PHP Manager
@@ -128,7 +131,10 @@ Enable: php_imap.dll
 Enable: php_intl.dll
 Enable: php_opcache.dll
 Refresh the osTicket site in your browse
-
+<p>
+  <img src="https://i.imgur.com/Q5zwdw3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
 
 Rename: ost-config.php
 From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
@@ -151,7 +157,10 @@ Create a new session, root/Password1
 Connect to the session
 Create a database called “osTicket”
 
-
+<p>
+  <img src="https://i.imgur.com/9g4bt7o.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
 
 Continue Setting up osticket in the browser
 MySQL Database: osTicket
@@ -160,5 +169,5 @@ MySQL Password: Password1
 Click “Install Now!”
 
 
-The installation should is now complete
+Congrats!!! The installation is now complete
 Browse to your help desk login page: http://localhost/osTicket/scp/login.php
